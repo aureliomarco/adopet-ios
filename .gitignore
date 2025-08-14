@@ -36,12 +36,16 @@ Adopet.xcodeproj/project.xcworkspace/xcuserdata/
 # Swift Package Manager
 .build/
 # Do not ignore Package.resolved so dependencies are pinned
+# SwiftPM cache and metadata
+.swiftpm/
+!**/Package.resolved
 
 # CocoaPods
 Pods/
 
 # Carthage
 Carthage/Build/
+Carthage/Checkouts/
 
 # Fastlane
 fastlane/report.xml
@@ -55,6 +59,8 @@ fastlane/*.log
 *.ipa
 *.dSYM
 *.dSYM.zip
+*.xccoverage
+*.profdata
 
 # Playgrounds
 timeline.xctimeline
@@ -68,5 +74,30 @@ playground.xcworkspace
 *.rej
 *.tmp
 *.log
+
+# Test results
+*.xcresult
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Environment files
+.env
+.env.*
+.envrc
+
+# Provisioning and certificates
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+*.certSigningRequest
+
+# Crash and trace logs
+*.crash
+*.ips
+*.trace
 
 
