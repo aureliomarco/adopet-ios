@@ -1,0 +1,72 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+**/__MACOSX/
+# 'Icon' file at root of volumes
+Icon
+
+# Xcode
+DerivedData/
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+*.xcuserstate
+**/IDEWorkspaceChecks.plist
+**/WorkspaceSettings.xcsettings
+
+# Project-specific user data (explicit)
+Adopet.xcodeproj/xcuserdata/
+Adopet.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Swift Package Manager
+.build/
+# Do not ignore Package.resolved so dependencies are pinned
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+fastlane/*.log
+
+# Archives and symbols
+*.xcarchive
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Temporary files
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+*.tmp
+*.log
+
+
